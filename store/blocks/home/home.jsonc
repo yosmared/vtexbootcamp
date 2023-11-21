@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "rich-text#redclover-title",
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -14,6 +15,18 @@
       "newsletter"
     ]
   },
+
+  "rich-text#redclover-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Visit our [help](https://developers.vtex.com/vtex-developer-docs/docs/welcome) section.\n**Be Bold!**\n*This is italic*",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "tituloredclover"
+    }
+  },
+  
 
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
